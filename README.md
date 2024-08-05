@@ -1,2 +1,2 @@
 # learning
-just a personal learning repo.
+*Just a personal learning repo.*
