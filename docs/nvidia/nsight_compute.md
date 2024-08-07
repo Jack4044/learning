@@ -2,17 +2,17 @@
 
 *Just a nsight compute learning note.*
 
-# Introduction
+## Introduction
 
 Nsight Compute 的主要用途之一是提供对 Kernel 的 GPU 性能分析指标。
 
-ref:
+*ref:*
 
 - [NVIDIA Nsight Compute](https://developer.nvidia.com/nsight-compute)
 
-# Install
+## Install
 
-## cmd
+### cmd
 
 ```bash
 # nsight compute
@@ -27,15 +27,15 @@ wget https://developer.download.nvidia.cn/compute/cuda/repos/ubuntu2404/x86_64/c
 
 
 
-## ref
+### ref
 
 
 
-# Command
+## Command
 
 
 
-## env
+### env
 
 ```bash
 # docker env
@@ -45,7 +45,7 @@ docker run --gpus all -it --shm-size=256g --ulimit memlock=-1 --ulimit stack=671
 docker run --gpus all -it --shm-size=256g --ulimit memlock=-1 --ulimit stack=67108864 --cap-add=SYS_ADMIN --name xiaoyu -v /home/xiaoyu/workspace:/home/xiaoyu/workspace nvcr.io/nvidia/pytorch:22.04-py3 bash
 ```
 
-## 锁频
+### 锁频
 
 ```bash
 # 查看频率
@@ -55,7 +55,7 @@ nvidia-smi dmon
 nvidia-smi -i devices_id -lgc 1410
 ```
 
-## 抓取文件
+### 抓取文件
 
 ```bash
 # cmd

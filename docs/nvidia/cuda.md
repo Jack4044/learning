@@ -2,7 +2,7 @@
 
 *Just a cuda learning note.*
 
-# Introduction
+## Introduction
 
 在高性能计算领域，CUDA（[Compute Unified Device Architecture](https://en.wikipedia.org/wiki/CUDA)）是一项革命性的技术。它由 Nvidia 开发，是一个并行计算平台和应用程序编程接口（API）模型，利用 NVIDIA GPU（图形处理器）的强大计算能力来提高软件应用程序的计算速度和效率。
 
@@ -19,13 +19,13 @@ CUDA 对 Ubuntu 用户、程序员和开发者的重要性主要包括：
 - 兼容性：较新的 CUDA 版本能够支持最新的 GPU。如果您使用最新的 Nvidia GPU，可能会要求最新的 CUDA 版本。
 - 便捷更新：通过导入 Nvidia 官方 APT 软件源和 GPG 密钥，可以轻松使用 APT 软件包管理器获取未来的更新，可以避免手动下载和安装 CUDA 更新。
 
-ref:
+*ref:*
 
 - [CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/)
 
-# Install
+## Install
 
-## cmd
+### cmd
 
 *（下面的安装过程自测有些不支持，ubuntu24.04 还是使用系统软件进行的安装。）*
 
@@ -93,7 +93,7 @@ sudo reboot
 nvidia-smi
 ```
 
-## ref
+### ref
 
 - [Fedora 39/38/37 Linux系统安装NVIDIA驱动程序详细教程](https://www.ecscoupon.com/2342.html)
 - [如何在 Ubuntu 中安装 CUDA，详细步骤](https://www.sysgeek.cn/ubuntu-cuda/#google_vignette)
